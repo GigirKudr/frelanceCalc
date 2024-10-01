@@ -7,7 +7,7 @@ public class FreranceCalcService {
         for (int month = 1; month < 12; month++) {
             if (money >= threshold) {
                 count++;
-                money = ((money - expenses)*2)/3;
+                money = (money - expenses) / 3;
             } else {
 
                 money = money + income - expenses;
