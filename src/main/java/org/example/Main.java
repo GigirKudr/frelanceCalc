@@ -1,8 +1,8 @@
-import ru.netology.services.freranceCalcService;
+import ru.netology.services.FreranceCalcService;
 
 public class Main {
     public static void main(String[] args) {
-        freranceCalcService service = new freranceCalcService();
+        FreranceCalcService service = new FreranceCalcService();
         System.out.println(service.calculate(100_000, 60_000, 150_000));
 
     }
